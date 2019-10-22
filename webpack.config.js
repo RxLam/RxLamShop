@@ -76,8 +76,8 @@ let conf = {
     devServer: {
         historyApiFallback: true,
         proxy: {
-            '/reactcourseapi/**':{
-                target: 'http://localhost',
+            '/reactProjectTwo/api/**':{
+                target: 'https://localhost',
                 secure: false,
                 changeOrigin: true
             }
