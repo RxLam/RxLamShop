@@ -1,4 +1,4 @@
-let mainServerUrl = '/reactProjectTwo/api/';
+let mainServerUrl = '/reactShop/';
 
 export default function makeRequest(url, options = {}, baseUrl = mainServerUrl){
     return fetch(baseUrl + url, options).then((response) => {

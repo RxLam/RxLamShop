@@ -76,7 +76,7 @@ let conf = {
     devServer: {
         historyApiFallback: true,
         proxy: {
-            '/reactProjectTwo/api/**':{
+            '/reactShop/**':{
                 target: 'https://localhost',
                 secure: false,
                 changeOrigin: true
