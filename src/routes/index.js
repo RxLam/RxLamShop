@@ -55,7 +55,7 @@ let urlBuilder = function(name, params){
         return null;
     }
 
-    let url = routesMap[name]; // news/:id
+    let url = routesMap[name]; // products/:id
 
     for(let key in params){
         url = url.replace(':' + key, params[key]);
